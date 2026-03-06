@@ -71,7 +71,25 @@ void main() {
   }
   
   //==, >= , <=, < , >, 
-   
-    
+  // && || 
+  //bitwise & |
+ //Ternary
+  String value = age > 10 ? "yeah" : "no";
+  print(value);
+   //switch
+  switch(age) {
+    case 13 when value == "yeah": print("age is 13");
+    case 18 : print("age is 18");
+    default : print("age is $age"); 
+  }
+  String destinationZone = 'PQR';
+  double weightInKgs = 6;
+  
+  switch(destinationZone) {
+    case 'ABC' : print("The shipping cost is ${weightInKgs * 7}");break;
+    case 'PQR' : print("The shipping cost is ${weightInKgs * 10}");break;
+    case 'XYZ' : print("The shipping cost is ${weightInKgs * 5}");break;
+    default : print("Error: Invalid Destination Zone Entered!");
+  }
   
 }
