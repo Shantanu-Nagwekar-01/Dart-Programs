@@ -1,6 +1,6 @@
 void main() {
   print("Hello, World!");
-  // <datatyoe> <variablename> = <value>;
+  // <datatype> <variablename> = <value>;
   int a = 1, b = 2;
   print(a + b);
   double pi = 3.14;
@@ -47,7 +47,7 @@ void main() {
   print(dateTime);
   //optional variables
   //String/int/bool and null
-  String? nullval = null; // var of string can have nulll value
+  String? nullval = null; // var of string can have null value
   //final? vali = null; is not allowed 
   print (nullval);
   nullval = "nullvalue";
